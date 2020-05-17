@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">个人简介</string>
+    <string name="black" />
+    <string name="textview">退出</string>
+    <string name="my" />
+    <string name="textview_my">基本资料</string>
+    <string name="detail_imagebuttom" />
+    <string name="textview_detail">个性资料</string>
+    <string name="image_head" />
+    <string name="textview_head">头像框类型</string>
+    <string name="textview_message">
+        \n
+        姓名：GLL\n
+        \n
+        性别：男\n
+        \n
+        就读大学：九江学院\n
+        \n
+        专业：物联网工程
+    </string>
+    <string name="item_about">关于作者</string>
+    <string name="item_add">添加</string>
+    <string name="previous" />
+    <string name="textview_previous">返回</string>
+    <string name="textview_moreMessage">
+        \n
+        邮箱：ling100797@gmail.com\n
+        \n
+        电话：10086\n
+        \n
+        专业介绍：略\n
+        \n
+        编程语言：Python, Java, C
+    </string>
+    <string name="radiobutton1">女头像框</string>
+    <string name="radiobutton2">男头像框</string>
+    <string name="textview_core">对于我，你给多少分</string>
+    <string name="add_hint">请输入添加的内容</string>
+    <string name="button_cancle">取消</string>
+    <string name="button_confirm">确定</string>
+    <string name="textview_add">这里显示添加信息，点击菜单栏上的+，也可清除</string>
+    <string name="item_clear">清除添加信息</string>
+    <string name="switch_color">颜色</string>
+    <string name="button_baidu">去他学校</string>
+    <string name="button_call">打他电话</string>
+    <string name="item_myself">关于本软件</string>
+</resources>
