@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                                     Matcher matcher = pattern.matcher(string);
                                     if(!matcher.matches()){
                                         textViewadd.setText(string);
-                                         textViewadd.setTextColor(Color.GREEN);
+                                        textViewadd.setTextColor(Color.GREEN);
                                     }
                                     else {
                                         textViewadd.setText("不能全为数字，请重新输入");

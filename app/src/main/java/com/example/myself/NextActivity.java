@@ -48,14 +48,14 @@ public class NextActivity extends AppCompatActivity {
         ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
                 @Override
                 public void onRatingChanged(RatingBar ratingBar, float v, boolean b) {
-                    float core = v * 20;
+                    int core = (int)(v * 20);
                     String core_str = String.valueOf(core);
                     if (core < 60){
                         display.setText("你也配给我"+core_str+"分？");
                         display.setTextColor(Color.BLACK);
                     }else if(core >= 60 && core< 90){
                         display.setText("谢谢您的"+core_str+"分鼓励");
-                        display.setTextColor(Color.YELLOW);
+                        display.setTextColor(Color.GREEN);
                     }else {
                         display.setText("感谢您"+core_str+"的评分！您眼光真好！");
                         display.setTextColor(Color.RED);
