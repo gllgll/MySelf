@@ -38,7 +38,7 @@
     <string name="add_hint">请输入添加的内容</string>
     <string name="button_cancle">取消</string>
     <string name="button_confirm">确定</string>
-    <string name="textview_add">这里显示添加信息，点击菜单栏上的+，也可清除</string>
+    <string name="textview_add">显示添加信息,也可清除</string>
     <string name="item_clear">清除添加信息</string>
     <string name="switch_color">颜色</string>
     <string name="button_baidu">去他学校</string>
