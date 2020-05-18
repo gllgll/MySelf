@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         textViewadd = findViewById(R.id.textView9);
-        textViewadd.setSelected(true);
         switch (item.getItemId()){
             case R.id.add:
                 addbuilder = new AlertDialog.Builder(MainActivity.this);
@@ -69,8 +68,6 @@ public class MainActivity extends AppCompatActivity {
                                         textViewadd.setText("不能全为数字，请重新输入");
                                         textViewadd.setTextColor(Color.RED);
                                     }
-                                    //跑马灯效果
-                                    textViewadd.setSelected(true);
                                 }catch (NumberFormatException e){
                                     e.printStackTrace();
                                 }
