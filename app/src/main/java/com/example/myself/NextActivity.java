@@ -6,14 +6,12 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class NextActivity extends AppCompatActivity {
-    ImageButton imageButton4;
     RatingBar ratingBar;
     TextView display;
     Button buttonBaidu, buttonCall;
@@ -23,7 +21,6 @@ public class NextActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_next);
 
-        imageButton4 = findViewById(R.id.imageButton4);
         display = findViewById(R.id.textView8);
         ratingBar = findViewById(R.id.ratingBar);
         buttonBaidu = findViewById(R.id.button3);
@@ -63,15 +60,6 @@ public class NextActivity extends AppCompatActivity {
                         display.setText("感谢您"+core_str+"的评分！您眼光真好！");
                         display.setTextColor(Color.RED);
                     }
-            }
-        });
-
-        imageButton4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(NextActivity.this,MainActivity.class);
-                startActivity(intent);
-                finish();
             }
         });
     }
