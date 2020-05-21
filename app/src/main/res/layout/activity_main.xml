@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.75" />
+        app:layout_constraintGuide_percent="0.8" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -243,6 +243,7 @@
         android:id="@+id/textView9"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:background="@drawable/tv_shape"
         android:text="@string/textview_add"
         android:singleLine="true"
         android:ellipsize="marquee"
