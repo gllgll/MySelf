@@ -13,4 +13,10 @@
         android:bottom="17dp"
         android:left="17dp"
         android:right="17dp"/>
+<!--    渐变效果-->
+    <gradient
+        android:endColor="#ff8c00"
+        android:gradientRadius="50dp"
+        android:startColor="#ffffff"
+        android:type="linear"/>
 </shape>
